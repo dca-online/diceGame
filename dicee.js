@@ -12,11 +12,11 @@ function rollDice() {
     }
 
     if (randomNumber1 > randomNumber2) {
-        $("h1").text("Player 1 Wins!");
+        $("h1").text("Juctătorul 1 câștigă!");
     } else if (randomNumber1 < randomNumber2) {
-        $("h1").text("Player 2 Wins!");
+        $("h1").text("Jucătorul 2 câștigă!");
     } else {
-        $("h1").text("It's a Draw!");
+        $("h1").text("Egalitate!");
     }
 }
 
